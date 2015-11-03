@@ -103,6 +103,9 @@ namespace Xero.Api.Core.Model
 
         [DataMember(EmitDefaultValue = false)]
         public List<Payment> Payments { get; set; }
+        
+        [DataMember(EmitDefaultValue = false)]
+        public decimal? TotalDiscount { get; set; }
 
     }
 }
